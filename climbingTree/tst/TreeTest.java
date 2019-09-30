@@ -7,31 +7,48 @@ import static org.junit.Assert.*;
 
 public class TreeTest {
 
-    @Test(timeout=1000)
-    public void calculageDistance() {
 
-        ClimbingTree<Integer> root = new ClimbingTree<>(1);
-        ClimbingTree<Integer> two = new ClimbingTree<>(2);
-        ClimbingTree<Integer> five = new ClimbingTree<>(5);
-        ClimbingTree<Integer> four = new ClimbingTree<>(4);
-        ClimbingTree<Integer> three = new ClimbingTree<>(3);
-        ClimbingTree<Integer> six = new ClimbingTree<>(6);
-        ClimbingTree<Integer> seven= new ClimbingTree<>(7);
+    @Test(timeout=500)
+    public void testNext() {
+        BinaryTree<Integer> root = new BinaryTree<>(1);
+        BinaryTree<Integer> left = new BinaryTree<>(2);
+        BinaryTree<Integer> leftLeft = new BinaryTree<>(3);
 
-        root.addChild(two);
-        root.addChild(five);
-        two.addChild(three);
-        two.addChild(four);
-        five.addChild(six);
-        five.addChild(seven);
+        root.setLeft(left);
+        left.setLeft(leftLeft);
+
+        Iterator<Integer> iter = root.iterator();
+        for (int i = 1; i <= 3; i++) {
+            assertEquals(i, (int)iter.next());
+        }
+    }
+
+
+    @Test(timeout=5000)
+    public void calculageDistanceBinary() {
+
+        BinaryTree<Integer> root = new BinaryTree<>(1);
+        BinaryTree<Integer> two = new BinaryTree<>(2);
+        BinaryTree<Integer> five = new BinaryTree<>(5);
+        BinaryTree<Integer> four = new BinaryTree<>(4);
+        BinaryTree<Integer> three = new BinaryTree<>(3);
+        BinaryTree<Integer> six = new BinaryTree<>(6);
+        BinaryTree<Integer> seven= new BinaryTree<>(7);
+
+        root.setLeft(two);
+        root.setRight(five);
+        two.setLeft(three);
+        two.setRight(four);
+        five.setLeft(six);
+        five.setRight(seven);
+
 
         Iterator<Integer> iter = root.iterator();
         for (int i = 1; i <= 7; i++) {
             assertEquals(i, (int)iter.next());
         }
 
-        assertEquals(4,three.calculateDistance(six));
+        assertEquals(3,root.distance(three,six));
     }
-
 
 }

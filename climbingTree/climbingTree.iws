@@ -5,10 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../../climbingTree/climbingTree.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../climbingTree/climbingTree.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../climbingTree/out/test/climbingTree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../climbingTree/out/test/climbingTree/TreeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../climbingTree/tst/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../climbingTree/tst/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/climbingTree.iws" beforeDir="false" afterPath="$PROJECT_DIR$/climbingTree.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/climbingTree/ClimbingTree.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tst/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/TreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../hw3_files/hw3_files.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw3_files/hw3_files.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../hw3_files/out/production/hw3_files/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw3_files/out/production/hw3_files/BinaryTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../hw3_files/out/production/hw3_files/FamilyTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw3_files/out/production/hw3_files/FamilyTree.class" afterDir="false" />
@@ -71,12 +68,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2018" />
+          <entry key="java" value="2024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2018" />
+          <entry key="JAVA" value="2024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -98,7 +95,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tst/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="750">
               <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="212" column="20" lean-forward="true" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
+            <state relative-caret-position="427">
+              <caret line="205" column="45" selection-start-line="205" selection-start-column="45" selection-end-line="205" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,8 +157,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/TreeIterator.java" />
         <option value="$PROJECT_DIR$/src/ClimbingTree.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree.java" />
         <option value="$PROJECT_DIR$/tst/TreeTest.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree.java" />
       </list>
     </option>
   </component>
@@ -207,7 +204,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570236192386" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570236392655" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -306,9 +303,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest_calculageDistanceBinary - 2019.09.30 at 15h 48m 27s.xml">
-      <configuration name="TreeTest.calculageDistanceBinary" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeTest_calculageDistanceBinary - 2019.09.30 at 15h 52m 04s.xml">
       <configuration name="TreeTest.calculageDistanceBinary" configurationId="JUnit" />
     </history-entry>
@@ -336,12 +330,15 @@
     <history-entry file="TreeTest - 2019.10.05 at 10h 42m 44s.xml">
       <configuration name="TreeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TreeTest - 2019.10.05 at 10h 43m 14s.xml">
+      <configuration name="TreeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,7 +355,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32904148" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32904148" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32904148" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,13 +402,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BinaryTree.java</url>
-          <line>208</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BinaryTree.java</url>
-          <line>188</line>
+          <line>187</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -455,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="212" column="20" lean-forward="true" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
+        <state relative-caret-position="427">
+          <caret line="205" column="45" selection-start-line="205" selection-start-column="45" selection-end-line="205" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -465,7 +456,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="750">
           <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />

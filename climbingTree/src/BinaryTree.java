@@ -177,10 +177,14 @@ public class BinaryTree<E> implements Tree<E> {
             System.out.println(root.getRoot().toString());
         }
 
-        return left!=null?left:right;
+        if( left!= null){
+            return left;
+        }
+
+        return right;
     }
 
-    public <E extends Comparable<E>> int findDist(BinaryTree<E> lca, BinaryTree<E> a,int dist){
+    public <E extends Comparable<E>> int calculateDist(BinaryTree<E> lca, BinaryTree<E> a,int dist){
 
         if(lca == null)
             return -1;
@@ -189,16 +193,20 @@ public class BinaryTree<E> implements Tree<E> {
             return dist;
         }
 
-        int leftDist = findDist(lca.getLeft(),a,dist+1);
+        int leftDist = calculateDist(lca.getLeft(),a,dist+1);
 
-        return leftDist!= -1 ? leftDist:findDist(lca.getRight(),a,dist+1);
+        if(leftDist!= -1){
+            return leftDist;
+        }
+
+        return calculateDist(lca.getRight(),a,dist+1);
     }
 
     public <E extends Comparable<E>> int distance(BinaryTree<E> a, BinaryTree<E> b) {
 
         BinaryTree lca = lowestCommonAncestor(this, a, b);
 
-        int dist = findDist(lca,a,0)+ findDist(lca,b,0);
+        int dist = calculateDist(lca,a,0)+ calculateDist(lca,b,0);
 
         System.out.println(dist);
 

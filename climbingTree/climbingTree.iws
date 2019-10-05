@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2480a7c-c97b-4fe3-aaa6-1a3778e5aaa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../climbingTree/climbingTree.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../climbingTree/climbingTree.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../climbingTree/out/test/climbingTree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../climbingTree/out/test/climbingTree/TreeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../climbingTree/tst/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../climbingTree/tst/TreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/climbingTree.iws" beforeDir="false" afterPath="$PROJECT_DIR$/climbingTree.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/climbingTree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/climbingTree/TreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClimbingTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClimbingTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/climbingTree/ClimbingTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tst/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/TreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../hw3_files/hw3_files.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw3_files/hw3_files.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../hw3_files/out/production/hw3_files/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw3_files/out/production/hw3_files/BinaryTree.class" afterDir="false" />
@@ -64,18 +63,20 @@
     <session id="536388067">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1936" />
+          <entry key="java" value="2018" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1936" />
+          <entry key="JAVA" value="2018" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,23 +98,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tst/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+            <state relative-caret-position="272">
+              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClimbingTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,18 +110,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
+            <state relative-caret-position="517">
+              <caret line="212" column="20" lean-forward="true" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1691#1692#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="120">
               <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
@@ -151,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TreeIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
+            <state relative-caret-position="720">
               <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
@@ -196,7 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,12 +203,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569823722365" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570236192386" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -246,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.calculageDistance">
+  <component name="RunManager" selected="JUnit.TreeTest">
     <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="climbingTree" />
       <option name="PACKAGE_NAME" value="" />
@@ -304,10 +284,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeTest.calculageDistance" />
-        <item itemvalue="JUnit.TreeTest.calculageDistanceBinary" />
-        <item itemvalue="JUnit.TreeTest.testNext" />
         <item itemvalue="JUnit.TreeTest" />
+        <item itemvalue="JUnit.TreeTest.calculageDistanceBinary" />
+        <item itemvalue="JUnit.TreeTest.calculageDistance" />
+        <item itemvalue="JUnit.TreeTest.testNext" />
         <item itemvalue="JUnit.TreeTest.createClimbingTree" />
       </list>
     </recent_temporary>
@@ -326,9 +306,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest_calculageDistanceBinary - 2019.09.30 at 15h 48m 16s.xml">
-      <configuration name="TreeTest.calculageDistanceBinary" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeTest_calculageDistanceBinary - 2019.09.30 at 15h 48m 27s.xml">
       <configuration name="TreeTest.calculageDistanceBinary" configurationId="JUnit" />
     </history-entry>
@@ -356,12 +333,15 @@
     <history-entry file="TreeTest_calculageDistance - 2019.09.30 at 16h 08m 44s.xml">
       <configuration name="TreeTest.calculageDistance" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TreeTest - 2019.10.05 at 10h 42m 44s.xml">
+      <configuration name="TreeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -378,7 +358,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32904148" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32904148" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32904148" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -425,13 +405,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BinaryTree.java</url>
-          <line>200</line>
+          <line>208</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BinaryTree.java</url>
-          <line>184</line>
+          <line>188</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -444,13 +424,6 @@
     <entry file="file://$PROJECT_DIR$/tst/MyTreeTest.java" />
     <entry file="file://$PROJECT_DIR$/src/Dictionary.java" />
     <entry file="file://$PROJECT_DIR$/src/StandardTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/TreeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../lib/junit-4.12.jar!/org/junit/internal/runners/statements/FailOnTimeout.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -465,46 +438,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClimbingTree.java" />
     <entry file="file://$PROJECT_DIR$/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="120">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
+        <state relative-caret-position="517">
+          <caret line="212" column="20" lean-forward="true" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1691#1692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClimbingTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        <state relative-caret-position="272">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

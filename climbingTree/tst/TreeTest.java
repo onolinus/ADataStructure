@@ -48,7 +48,7 @@ public class TreeTest {
             assertEquals(i, (int)iter.next());
         }
 
-        assertEquals(3,root.distance(three,six));
+        assertEquals(4,root.distance(three,six));
     }
 
 }

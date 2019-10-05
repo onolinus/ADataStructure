@@ -157,24 +157,17 @@ public class BinaryTree<E> implements Tree<E> {
         }
 
         if(root.getRoot() == a.getRoot()){
-            System.out.println(root.getRoot().toString());
             return root;
         }
 
         if(root.getRoot() == b.getRoot()){
-            System.out.println(root.getRoot().toString());
             return root;
         }
-
 
         BinaryTree<E> left = lowestSharedAncestor(root.getLeft(), a, b);
         BinaryTree<E> right = lowestSharedAncestor(root.getRight(), a, b);
 
         if (left != null && right != null) return root;
-
-        if (left != null || right != null){
-            System.out.println(root.getRoot().toString());
-        }
 
         if( left!= null){
             return left;
